@@ -248,6 +248,16 @@ var Player = (function (_EventEmitter) {
       return this;
     }
   }, {
+    key: 'paused',
+
+    /**
+     * [Pause or resume audio]
+     * @return {player} this
+     */
+    value: function paused() {
+      return this.paused;
+    }
+  } , {
     key: 'stop',
 
     /**
